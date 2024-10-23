@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tardis-ark",
+	"version": "${version}",
+	"name": "Tardis Ark",
+	"description": "Esté é meu Mod TARDIS, ele terá uma alma!",
+	"authors": [
+		"Arkhen_Yekhun"
+	],
+	"contact": {
+		"homepage": "Discord: Arkhen_Yekhun",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tardis-ark/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.arkhen.tardis.TardisArk"
+		],
+		"client": [
+			"net.arkhen.tardis.TardisArkClient"
+		],
+		"fabric-datagen": [
+			"net.arkhen.tardis.TardisArkDataGenerator"
+		]
+	},
+	"mixins": [
+		"tardis-ark.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
