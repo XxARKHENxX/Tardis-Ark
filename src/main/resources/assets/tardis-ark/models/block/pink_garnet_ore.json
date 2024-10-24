@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tardis-ark:block/pink_garnet_ore"
+  }
+}

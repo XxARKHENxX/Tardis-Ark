@@ -1,6 +1,9 @@
 package net.arkhen.tardis;
 //MAIN
 
+import net.arkhen.tardis.block.ModBlocks;
+import net.arkhen.tardis.item.ModItemGroups;
+import net.arkhen.tardis.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,6 +23,14 @@ public class TardisArk implements ModInitializer {
 		// No entanto, algumas coisas (como recursos) ainda podem não ser inicializadas.
 		// Prossiga com cautela moderada.
 
-		LOGGER.info("Hello Fabric world!");
+		TardisArk.LOGGER.info("INICIANDO REGISTROS DO MOD " + TardisArk.MOD_ID);
+
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+
+		LOGGER.info("TADIS OPERACIONAL!");
 	}
 }	

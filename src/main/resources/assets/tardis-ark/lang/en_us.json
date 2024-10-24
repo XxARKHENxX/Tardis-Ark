@@ -1,0 +1,19 @@
+{
+  "item.tardis-ark.artron_core": "Artron Core",
+
+
+  "item.tardis-ark.pink_garnet": "Pink Garnet",
+  "item.tardis-ark.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.tardis-ark.pink_garnet_block": "Block of Pink Garnet",
+  "block.tardis-ark.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "block.tardis-ark.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tardis-ark.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+
+  "itemgroup.tardis.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.tardis.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "itemgroup.tardis.tardis_items": "Tardis"
+}
